@@ -15,7 +15,7 @@ Everything is done in data.js. There are two object you need to update :
 		* day the index of the day (starting at 1)
 		* room (optional) the name of the room
 	* color (optional) a valid HTML color (as string)
-	* links an array of objects, each object being composed of :
+	* links (optional) an array of objects, each object being composed of :
 		* url : the url
 		* name : the name of the link
 
