@@ -18,6 +18,7 @@ Everything is done in data.js. There are two object you need to update :
 	* links an array of objects, each object being composed of :
 		* url : the url
 		* name : the name of the link
+	* infos (optional) : a (optionally HTML-formatted) string to be printed before the links in the modal
 
 Additionally, one can also provide each class with a links array as previously
 

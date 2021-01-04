@@ -41,6 +41,10 @@ function fillTable() {
             /* Setup the modal for the course */
             var content='';
             content += '<h1>'+course+'</h1>';
+            /* Informations */
+            if (courses[course].infos != undefined) {
+                content += courses[course].infos;
+            }
             /* Links for the course */
             if (courses[course].links != undefined) {
                 content += '<h3>Useful links for this course :</h3>';
